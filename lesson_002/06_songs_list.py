@@ -20,7 +20,8 @@ violator_songs_list = [
 # Обратите внимание, что делать много вычислений внутри print() - плохой стиль.
 # Лучше заранее вычислить необходимое, а затем в print(xxx, yyy, zzz)
 
-# TODO здесь ваш код
+dlina_pesen = violator_songs_list[3][1] + violator_songs_list[5][1] + violator_songs_list[8][1]
+print('Три песни звучат', round(dlina_pesen, 2), 'минут')
 
 # Есть словарь песен группы Depeche Mode
 violator_songs_dict = {
@@ -38,4 +39,8 @@ violator_songs_dict = {
 # распечатайте общее время звучания трех песен: 'Sweetest Perfection', 'Policy of Truth' и 'Blue Dress'
 #   А другие три песни звучат ХХХ минут
 
-# TODO здесь ваш код
+dlina_mode = violator_songs_dict['Sweetest Perfection'] + violator_songs_dict['Policy of Truth'] + violator_songs_dict['Blue Dress']
+print('Три песни Depeche Mode звучат', round(dlina_mode, 2), 'минут')
+
+dlina_mode2 = violator_songs_dict['World in My Eyes'] + violator_songs_dict['Waiting for the Night'] + violator_songs_dict['Personal Jesus']
+print('А другие три песни Depeche Mode звучат', round(dlina_mode2, 2), 'минут')
